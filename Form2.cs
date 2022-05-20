@@ -23,7 +23,7 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (tbUser.Text == "DjRasek" && tbPass.Text == "Shompisito")
+            if (tbUser.Text == "" && tbPass.Text == "")
             {
                 frmConfig fc = new frmConfig();
                 fc.lbSaludo.Text = "Bienvenido DjRasek";
